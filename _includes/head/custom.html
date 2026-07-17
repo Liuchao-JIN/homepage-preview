@@ -1,0 +1,171 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=20201130">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ base_path }}/images/apple-touch-icon-114x114.png?v=20201130">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ base_path }}/images/apple-touch-icon-120x120.png?v=20201130">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=20201130">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=20201130">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=20201130">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=20201130" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=20201130" sizes="192x192">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=20201130" sizes="16x16">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=20201130">
+<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=20201130" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=20201130">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-150x150.png?v=20201130">
+<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=20201130">
+<meta name="theme-color" content="#7A003C">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- MathJax 3 (upgraded from 2.7.4): faster, smaller, actively maintained -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      processEscapes: true,
+      tags: 'ams'
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+
+<!-- ===== Custom styles for homepage enhancements (added by optimization) ===== -->
+<style>
+  :root {
+    --accent: #7A003C;      /* CUHK purple */
+    --accent-light: #a3315f;
+    --card-bg: #ffffff;
+    --card-border: #ececec;
+    --muted: #6b6b6b;
+  }
+
+  /* --- Academic badges (Scholar / ORCID / ResearchGate) --- */
+  .academic-badges { margin: .2em 0 1em; display: flex; flex-wrap: wrap; gap: 8px; }
+  .academic-badges img { height: 20px; }
+
+  /* --- Hero tagline under the intro --- */
+  .hero-tagline {
+    font-size: 1.05em;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: .2px;
+    margin: .2em 0 1em;
+  }
+
+  /* --- Impact / stat numbers row --- */
+  .stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin: 1.5em 0;
+  }
+  .stat-card {
+    flex: 1 1 120px;
+    text-align: center;
+    padding: 16px 10px;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: var(--card-bg);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .stat-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(122,0,60,.12); }
+  .stat-card .num { font-size: 1.7em; font-weight: 700; color: var(--accent); line-height: 1.1; }
+  .stat-card .label { font-size: .82em; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+
+  /* --- Research interest cards --- */
+  .research-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px;
+    margin: 1.2em 0;
+  }
+  .research-card {
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 18px;
+    background: var(--card-bg);
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .research-card:hover { transform: translateY(-3px); box-shadow: 0 6px 18px rgba(0,0,0,.10); }
+  .research-card .rc-icon { font-size: 1.6em; }
+  .research-card h4 { margin: .4em 0 .3em; color: var(--accent); }
+  .research-card p { font-size: .9em; color: var(--muted); margin: 0; }
+
+  /* --- News scroll box --- */
+  .news-box {
+    max-height: 260px;
+    overflow-y: auto;
+    padding: 4px 14px;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: #fafafa;
+  }
+  .news-box ul { margin: .4em 0; padding-left: 1.1em; }
+  .news-box li { margin: .5em 0; font-size: .95em; }
+  .news-date {
+    display: inline-block;
+    min-width: 62px;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  /* --- Selected publication cards --- */
+  .pub-card {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 12px;
+    margin: 14px 0;
+    background: var(--card-bg);
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .pub-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.10); }
+  .pub-card img { width: 150px; height: auto; border-radius: 8px; flex-shrink: 0; }
+  .pub-card .pub-info { font-size: .92em; }
+  .pub-card .pub-info a.pub-title { font-weight: 600; }
+  .pub-card .pub-venue { color: var(--accent); font-style: italic; }
+
+  @media (max-width: 560px) {
+    .pub-card { flex-direction: column; text-align: center; }
+    .pub-card img { width: 100%; max-width: 260px; }
+  }
+
+  /* --- Section headings accent --- */
+  .home-section-title {
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+    margin-top: 1.4em;
+  }
+
+  /* --- CV download button already uses .btn; add a hover lift --- */
+  .btn:hover { transform: translateY(-1px); }
+
+  /* --- Publications year headings --- */
+  .pub-year {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 4px;
+    margin-top: 1.4em;
+    color: var(--accent);
+  }
+
+  /* --- <details> foldable long lists in CV --- */
+  details.cv-fold { margin: .6em 0; }
+  details.cv-fold > summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+    padding: 4px 0;
+  }
+</style>
+
+<!-- end custom head snippets -->

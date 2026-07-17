@@ -1,0 +1,9 @@
+_site/
+images/posts/*.tex
+images/posts/*.pdf
+images/posts/*.sty
+_source/*_cache
+.Rproj.user
+
+# Preview deploy: exclude large media (served from original liuchao-jin.github.io/files/)
+/files/

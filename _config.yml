@@ -1,0 +1,321 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Liuchao Jin | CUHK"
+title_separator          : "-"
+name                     : &name "Liuchao Jin"
+description              : &description "Liuchao Jin (金流超) — Hong Kong PhD Fellow at CUHK. Research on 3D/4D printing, smart materials, metamaterials, soft robotics, and machine-learning-driven design for energy absorption and harvesting."
+url                      : https://liuchao-jin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/homepage-preview" # PREVIEW deploy as a project page; set back to "" when merging into the main liuchao-jin.github.io repo
+repository               : "Liuchao-JIN/Liuchao-JIN.github.io"
+# Visitor map: sign up at https://clustrmaps.com, create a map for your site,
+# copy the "d=" value from the embed snippet and paste it below to show a live
+# visitor map in the footer. Leave blank to hide the widget.
+clustrmaps_id            : ""
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false #change to true to add link to talkmap on talks page
+comments:
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : "/images/profile_1.png"  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Liuchao Jin" # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=iYBWir4AAAAJ&hl=en"
+    - "https://orcid.org/0000-0001-6204-1922"
+    - "https://www.researchgate.net/profile/Liuchao-Jin"
+    - "https://www.linkedin.com/in/liuchaojin"
+    - "https://github.com/Liuchao-JIN"
+
+
+# Analytics
+analytics:
+  provider               :  false # false (default), "google", "google-universal", "custom" -- set to "google-universal" and add a tracking_id below to enable Google Analytics
+  google:
+    tracking_id          :
+
+
+# Site Author
+author:
+  name             : "Liuchao Jin"
+  avatar           : "profile_1.png"
+  bio              : "PhD Candidate @ CUHK"
+  location         : "ERB201, CUHK, Hong Kong"
+  employer         :
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=iYBWir4AAAAJ&hl=en"
+  email            : "Liuchao.Jin@link.cuhk.edu.hk"
+  researchgate     : "https://www.researchgate.net/profile/Liuchao-Jin"
+  uri              : "https://liuchao-jin.github.io/"
+  bookwithme       : "https://outlook.office.com/bookwithme/user/e979816620a34abca6a6b3329ea492e7@link.cuhk.edu.hk?anonymous&ep=plink"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "profile.php?id=100069841401825"
+  foursquare       :
+  github           : "Liuchao-JIN"
+  google_plus      :
+  keybase          :
+  instagram        : "jinliuchao"
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "liuchaojin"
+  orcid            : "http://orcid.org/0000-0001-6204-1922"
+  pinterest        : "Liuchao_Jin"
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "jin_liuchao"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : "@LiuchaoJin"
+  wikipedia        :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - config
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

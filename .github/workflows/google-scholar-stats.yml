@@ -1,0 +1,48 @@
+name: Google Scholar Stats
+
+# Scrapes the Google Scholar profile and publishes citation stats to the
+# `google-scholar-stats` branch, which the homepage badge reads via shields.io.
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run weekly, every Sunday at 00:00 UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch:   # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  scholar-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Google Scholar stats
+        env:
+          GOOGLE_SCHOLAR_ID: iYBWir4AAAAJ
+        run: |
+          cd google_scholar_crawler
+          python main.py
+
+      - name: Deploy stats to google-scholar-stats branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./google_scholar_crawler/results
+          publish_branch: google-scholar-stats
+          force_orphan: true
