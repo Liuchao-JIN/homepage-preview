@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Liuchao (Christopher) Jin (金流超)"
+title: "Liuchao (Christopher) Jin (金刘超)"
 excerpt: "Hong Kong PhD Fellow at CUHK — AI-driven design of intelligent matter: programmable metamaterials, intelligent manufacturing, and bio-inspired soft robots."
 author_profile: true
 redirect_from:
@@ -22,9 +22,9 @@ redirect_from:
   </a>
 </p>
 
-Hi! I'm **Liuchao (Christopher) Jin (金流超)**, a **[Hong Kong PhD Fellow](https://cerg1.ugc.edu.hk/hkpfs/index.html)** and Ph.D. candidate (graduating 2026) in Mechanical & Automation Engineering at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), advised by Prof. [Wei-Hsin Liao](https://www4.mae.cuhk.edu.hk/peoples/liao-wei-hsin/). My research builds the scientific foundation of **intelligent design** — merging **AI-driven design, adaptive materials, and mechanical intelligence** to create structures that learn, respond, and evolve with their environment.
+Hi! I'm **Liuchao (Christopher) Jin (金刘超)**, a **[Hong Kong PhD Fellow](https://cerg1.ugc.edu.hk/hkpfs/index.html)** and Ph.D. candidate (graduating 2026) in Mechanical & Automation Engineering at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html), advised by Prof. [Wei-Hsin Liao](https://www4.mae.cuhk.edu.hk/peoples/liao-wei-hsin/). My research builds the scientific foundation of **intelligent design** — merging **AI-driven design, adaptive materials, and mechanical intelligence** to create structures that learn, respond, and evolve with their environment.
 
-I recently completed a visiting scholarship at the **[California Institute of Technology (Caltech)](https://www.caltech.edu/)** with Prof. [Chiara Daraio](https://daraio.caltech.edu/) (CUHK Overseas Research Attachment Programme), and I have also been a visiting scholar at the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn/en/) with Prof. Qi Ge and at [Shenzhen University (SZU)](https://en.szu.edu.cn/). My academic journey began with a Bachelor's degree in Mechanical Engineering from [Sichuan University - Pittsburgh Institute (SCUPI)](https://scupi.scu.edu.cn/en/), where I graduated **ranked 1st (GPA 4.0/4.0)**.
+My academic journey began with a Bachelor's degree in Mechanical Engineering from [Sichuan University - Pittsburgh Institute (SCUPI)](https://scupi.scu.edu.cn/en/), where I graduated **ranked 1st (GPA 4.0/4.0)**.
 
 <blockquote class="research-vision">
   <b>Research vision:</b> How can we endow matter itself with the ability to adapt intelligently? I aim to unify AI-driven discovery, adaptive materials, and intelligent manufacturing so that structures can <i>co-design, co-fabricate, and co-evolve</i> — self-sensing, self-tuning, and self-assembling.

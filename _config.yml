@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Liuchao Jin | CUHK"
 title_separator          : "-"
 name                     : &name "Liuchao Jin"
-description              : &description "Liuchao Jin (金流超) — Hong Kong PhD Fellow at CUHK. Research on 3D/4D printing, smart materials, metamaterials, soft robotics, and machine-learning-driven design for energy absorption and harvesting."
+description              : &description "Liuchao Jin (金刘超) — Hong Kong PhD Fellow at CUHK. Research on 3D/4D printing, smart materials, metamaterials, soft robotics, and machine-learning-driven design for energy absorption and harvesting."
 url                      : https://liuchao-jin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/homepage-preview" # PREVIEW deploy as a project page; set back to "" when merging into the main liuchao-jin.github.io repo
 repository               : "Liuchao-JIN/Liuchao-JIN.github.io"

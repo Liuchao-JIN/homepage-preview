@@ -114,7 +114,7 @@
 
 **润色示例（About 开头）**：
 ```markdown
-Hi! I'm **Liuchao Jin (金流超)**, a **Hong Kong PhD Fellow** and Ph.D. candidate in
+Hi! I'm **Liuchao Jin (金刘超)**, a **Hong Kong PhD Fellow** and Ph.D. candidate in
 Mechanical & Automation Engineering at **CUHK**, advised by Prof. Wei-Hsin Liao.
 I build **machine-learning-driven design methods for 3D/4D printing, smart materials,
 metamaterials, and soft robotics** — with applications in energy absorption and harvesting.
@@ -271,7 +271,7 @@ metamaterials, and soft robotics** — with applications in energy absorption an
 
 **必改（`_config.yml`）**：
 ```yaml
-description: "Liuchao Jin (金流超) — Hong Kong PhD Fellow at CUHK. Research on 3D/4D printing, smart materials, metamaterials, soft robotics, and machine-learning-driven design."
+description: "Liuchao Jin (金刘超) — Hong Kong PhD Fellow at CUHK. Research on 3D/4D printing, smart materials, metamaterials, soft robotics, and machine-learning-driven design."
 
 og_image: "/images/profile_1.png"   # 或一张代表性研究图
 
