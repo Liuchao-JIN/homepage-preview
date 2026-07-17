@@ -25,8 +25,11 @@ Education
 
 Experience
 ======
-* 07/2024-09/2025: [Shenzhen University](https://en.szu.edu.cn/), Visiting Scholar
-  * Supervisor: Prof. Zhihui Lai & Shitong Fang
+* 09/2025-03/2026: [California Institute of Technology (Caltech)](https://www.caltech.edu/), Visiting Scholar
+  * Supervisor: Prof. [Chiara Daraio](https://daraio.caltech.edu/)
+  * Program: CUHK Overseas Research Attachment Programme
+* 08/2024-10/2025: [Shenzhen University](https://en.szu.edu.cn/), Visiting Scholar
+  * Supervisor: Prof. Shitong Fang & Zhihui Lai
   * Research Direction: Machine learning enabled design for energy absorption & harvesting
 * 08/2023-09/2025: [Southern University of Science and Technology](https://sustech.edu.cn/en/), Visiting Scholar
   * Supervisor: Prof. [Qi Ge](https://faculty.sustech.edu.cn/?tagid=geq&iscss=1&snapid=1&orderby=date&go=1&lang=en)
@@ -107,6 +110,9 @@ Teaching
 
 Honors & Awards
 ======
+* 07/2026 Best Presentation Award in 5th 4D Materials Design and Additive Manufacturing Conference (4DMDA 2026)
+* 06/2026 Best Poster Award in 35th International Conference on Adaptive Structures and Technologies (ICAST 2026)
+* 05/2026 Reaching Out Award - HKSAR Government Scholarship Fund (HK$10,000)
 * 07/2025 Honorary Alumni Mentor of Sichuan University-Pittsburgh Institute
 * 05/2025 PhD International Mobility for Partnerships and Collaborations Award (PhD IMPAC Award)
 * 02/2025 Outstanding Students Award at The Chinese University of Hong Kong

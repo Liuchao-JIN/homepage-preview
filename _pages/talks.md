@@ -9,6 +9,8 @@ author_profile: true
 * 2026/03/16-03/19. [SPIE Smart Structures + NDE 2026](https://spie.org/conferences-and-exhibitions/smart-structures-nde). Vancouver, Canada
 
 ### Past
+* 2026/07/08-07/10. 4D Materials Design and Additive Manufacturing Conference 2026. Dublin, Ireland. (**Best Presentation Award**)
+* 2026/06/01-06/03. 35th International Conference on Adaptive Structures and Technologies (ICAST 2026). Hong Kong, China. (**Best Poster Award**)
 * 2025/10/30. [GAMES Webinar 383: Geometric Design and Intelligent Manufacturing (CAX Session)](https://www.bilibili.com/video/BV1J2SFBREjm/?share_source=copy_web&vd_source=190e53d6e2ad43d5e7473075676b6206). Online. (Invited Talk)
 * 2025/10/12-10/15. [2025 SES Annual Technical Meeting](https://sites.gatech.edu/2025ses/). Atlanta, Georgia, United States
 * 2025/09/08-09/10. [ASME's Premier Conference on Smart Materials, Adaptive Structures, and Intelligent Systems](https://event.asme.org/SMASIS). St. Louis, Missouri, United States
